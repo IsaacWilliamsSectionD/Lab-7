@@ -18,9 +18,9 @@ body {
   --text-color: #333;
   --card-bg-color: #fff;
   --card-text-color: #333;
-  --primary-color: #5cb85c;
+  --primary-color: hsla(0, 91%, 46%, 0.849);
   --urgent-color: #e74c3c;
-  --work-color: #3498db;
+  --work-color: hsl(1, 70%, 53%);
   --personal-color: #f1c40f;
   --completed-color: #95a5a6;
 }
@@ -84,7 +84,7 @@ button {
 }
 
 button:hover {
-  background-color: #4cae4c;
+  background-color: hsl(0, 86%, 46%);
   transform: scale(1.05);
 }
 
@@ -152,7 +152,7 @@ li.completed {
 }
 
 .theme-toggle button:hover {
-  background-color: #2980b9;
+  background-color: hsl(0, 84%, 48%);
 }
 
 footer {
